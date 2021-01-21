@@ -5,8 +5,8 @@ import java.io.IOException;
 public class Main {
 
     private static final String PATH = "src/main/resources";
-//    private static final String[] FILE_NAMES = new String[]{"glove.6B.50d.txt", "glove.6B.100d.txt", "glove.6B.200d.txt", "glove.6B.300d.txt"};
-    private static final String[] FILE_NAMES = new String[]{"glove.6B.200d.txt"};
+    private static final String[] FILE_NAMES = new String[]{"glove.6B.50d.txt", "glove.6B.100d.txt", "glove.6B.200d.txt", "glove.6B.300d.txt"};
+//    private static final String[] FILE_NAMES = new String[]{"glove.6B.200d.txt"};
 
     public static void main(String[] args) throws IOException {
         TxtProcessor processor = new TxtProcessor();

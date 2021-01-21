@@ -50,7 +50,7 @@ public class TxtProcessor {
     }
 
     public void output(JSONArray json, String path, String fileName) {
-        JsonProcessor jsonProcessor = new JsonProcessor();
+//        JsonProcessor jsonProcessor = new JsonProcessor();
         String filePath = path + "/output";
         File file = new File(filePath);
         if (!file.exists() || !file.isDirectory()) {
